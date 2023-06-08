@@ -1,2 +1,0 @@
-#!/bin/bash
-ls -lna . ls -lna .. ls -lna /boot
