@@ -1,0 +1,2 @@
+#!/bin/bash
+ls . -aS | find -type f -name "*.gif" -printf "%s %f\n" | sort -f -k1,1nr | tr -d "0 ,.gif" 
